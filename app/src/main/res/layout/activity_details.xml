@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Details">
+
+        <ImageView
+            android:id="@+id/Iv_Kementrian"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="40dp"
+            android:src="@drawable/agraria" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Iv_Kementrian"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            >
+
+            <TextView
+                android:id="@+id/Tv_Kementrian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="#94ADACAC"
+                android:gravity="center_horizontal"
+                android:text="Kementrian"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Tv_nama1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Nama Menteri  "
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/Tv_mentri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E1FFEB3B"
+                android:gravity="center"
+                android:text="Nama Mentri"
+                />
+            <TextView
+
+                android:id="@+id/Tv_Deskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:padding="10dp"
+                android:text="deskripsi"
+                android:background="#5700BCD4"/>
+
+        </LinearLayout>
+
+
+</RelativeLayout>
